@@ -22,7 +22,7 @@ const HomePage = () => {
         <h1 className="text-3xl">
           Please{" "}
           <span>
-            <Link to="/auth">login</Link>
+            <Link to="/auth" className="text-blue-500">login</Link>
           </span>{" "}
           to add/access books
         </h1>
